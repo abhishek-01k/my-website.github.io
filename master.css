@@ -1,0 +1,271 @@
+body{
+
+  text-align: center;
+  margin:0;
+  font-family: serif;
+
+  font-size: 1.3em;
+}
+
+h1{
+margin: 0;
+font-size: 90px;
+font-family: 'Sacramento', cursive;
+padding-top: 100px;
+  color: #66bfbf;
+}
+h2{
+  margin: 0;
+    color: #66bfbf;
+    margin-bottom: 50px;
+}
+h3{
+color: #66bfbf;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: grey;
+  width: 10%;
+  margin-bottom: 50px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+/* .top_container{
+  background-color: #caf7e3;
+  position: relative;
+  margin-bottom: 0;
+padding-bottom: 125px;
+  height: 600px;
+
+} */
+.profile{
+  width:30%;
+  margin: auto;
+}
+
+.hey-there{
+  margin-top: 40px;
+  border-radius: 40px;
+  height: auto;
+  width: 150px;
+  padding-bottom: 40px;
+}
+
+.skills-image{
+  margin-top: 40px;
+  width: 200px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 25px;
+  margin-top: 0;
+
+}
+.skill{
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+
+
+.skill-row{
+
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 150px;
+    margin-top: 100px;
+    text-align: left;
+}
+.skill-row-2{
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      width: 50%;
+}
+.coder{
+  margin-top: 0;
+  width: 200px;
+  border-radius: 50px;
+  float: right;
+}
+
+.education{
+  margin-bottom: 100px;
+  margin: 100px auto;
+}
+ul{
+width: 39%;
+margin: 0 auto;
+}
+li{
+  text-align: left;
+}
+
+.graduate-image{
+  width: 200px;
+  margin-bottom: 50px;
+
+
+}
+
+
+/* .top-cloud{
+  position: absolute;
+  right:200px;
+  top: 100px;
+} */
+
+/* .bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top: 300px;
+} */
+
+
+
+/* .mountain{
+  position: absolute;
+  bottom: 0;
+  right: 450px;
+} */
+
+
+.fire-gif{
+  width: 200px;
+  border-radius: 50px;
+}
+
+.btn{
+  background-color: #66bfbf; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+.btn:hover{
+  background-color: #39a6a3;
+  color: black ;
+}
+.Contact-Me{
+  margin-bottom: 60px;
+
+}
+.bottom-container{
+  background-color: #d9faff;
+}
+
+.whatsapp-image{
+
+  width: 50px;
+  height: 50px;;
+  border-radius: 15px;
+  margin: 10px 10px;
+
+}
+.instagram-image{
+  width: 50px;
+  height: 50px;;
+  border-radius: 15px;
+  margin: 10px 10px;
+}
+.linkedin-image{
+  width: 50px;
+  height: 50px;;
+  border-radius: 15px;
+  margin: 10px 10px;
+}
+
+
+
+
+.top_container{
+  background-color: #d9faff;
+color: #66bfbf;
+  position: relative;
+  text-align: center;
+}
+.aeroplane{
+  position: absolute;
+    left: -200px;
+    width: 5%;
+  animation-name: aeroplane;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes aeroplane {
+  0% {
+    top: 50%;
+    left: 95%;
+}
+20% {
+    top: 55%;
+}
+40% {
+    top: 60%;
+    width: 3%;
+}
+80% {
+    top: 55%;
+}
+100% {
+    top: 50%;
+    left: -1%;
+}
+
+}
+
+.cloud-1{
+  position: absolute;
+  bottom: 300px;
+  width: 200px;
+  text-align: left;
+  animation-name: cloud-1;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes cloud-1 {
+  0%{right: 70%;}
+  100%{right:75%;}
+
+}
+
+.cloud-2{
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  animation-name: cloud-2;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes cloud-2 {
+  0%{left: 70%;}
+  100%{left :75%;}
+}
+
+
+.landscape{
+width: 100%;
+height: 50%;
+}
